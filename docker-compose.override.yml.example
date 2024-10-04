@@ -104,7 +104,7 @@ version: '3.4'
 #    extra_hosts:
 #      - "host.docker.internal:host-gateway"
 
-# # ADD OLLAMA
+# # ADD OLLAMA - When using Apple Silicon, don't uncomment the "deploy:" section, which is Nvidia-specific
 #  ollama:
 #    image: ollama/ollama:latest
 #    deploy:
